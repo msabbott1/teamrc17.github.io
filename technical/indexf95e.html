@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from teamrc17.net/technical/?c=efi by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Nov 2020 21:48:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>efi | Team RC17</title>
+
+	<link rel="home" href="../index.html" />
+
+	<link rel="alternate" type="application/atom+xml" title="Atom feed" href="../atom/indexfcc2.html?section=technical&amp;category=efi" />
+	<link rel="alternate" type="application/rss+xml" title="RSS feed" href="../rss/indexfcc2.html?section=technical&amp;category=efi" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../css020f.css?n=default&amp;t=default" />
+
+
+	
+</head>
+<body>
+
+<!-- accessibility -->
+<div id="accessibility">
+	<ul>
+		<li><a href="#content">Go to content</a></li>
+		<li><a href="#sidebar-1">Go to navigation</a></li>
+		<li><a href="#sidebar-2">Go to search</a></li>
+	</ul>
+</div>
+
+<div id="container">
+
+<!-- head -->
+	<div id="head">
+		<img src="../images/3.jpg">
+
+
+		
+	</div>
+
+<!-- left -->
+	<div id="sidebar-1">
+<p>&nbsp;
+
+<ul id="navlist">
+<p class="linklist"><a href="../index.html">Home</a><br /><a href="../articles/29/faq.html">FAQ</a><br /><a href="../articles/52/reviews-of-the-rc17.html">Reviews</a><br /><a href="../articles/97/downloads.html">Brochures</a><br /><a href="../articles/149/joining-team-rc17-australia.html">Join the Team</a><br /><a href="../gallery.html">Photo Gallery</a><br /><a href="../articles/115/team-rc17-mailing-list-archives-main-page.html">Mail Archive</a><br /><a href="../articles/118/where-we-are.html">Where we are</a><br /><a href="../articles/indexe38c.html?c=links">Useful Links</a><br /><a href="../articles/130/bike-register.html">Bike Register</a><br /><a href="../articles/127/trip-reports-by-team-members.html">Trip Reports</a><br /><a href="../articles/126/team-gatherings-and-meetings.html">Meetings</a><br /><a href="../articles/indexffea.html?c=members">Members</a><br /><a href="../articles/119/members-only-area.html">Members Only</a><br /></p>
+</ul>
+<p>
+<ul id="navlist">
+<p class="linklist"><a href="34/basic-maintenance.html">Basic Maintenance</a><br /><a href="137/wiring-diagrams.html">Wiring Diagrams</a><br /><a href="30/projects.html">Projects</a><br /><a href="31/tuning.html">Tuning</a><br /></p>
+</ul>
+
+
+
+
+
+</div>
+
+<!-- right -->
+	<!-- right -->
+	<div id="sidebar-2">
+	<form action="http://www.google.com/cse" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-1566685653579650:9l0wgpuqhac" />
+    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <input type="text" name="q" size="20" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>	
+<a href="http://lists.teamrc17.net/mailman/listinfo/teamrc17"><img src="../images/142.jpg" alt="" width="144" height="114" /></a>	
+
+</div>
+
+<!-- center -->
+	<div id="content">
+
+	<h3> </h3>
+	<p>I&#8217;ve been asked to provide an update to how the <span class="caps">EFI</span> project is going.</p>
+
+	<p>In a nutshell, it hasn&#8217;t gone anywhere at all since my last update. The bike has been parked at a friend&#8217;s house for the last 3 years &#8211; he needed a bike to ride whilst his was being fixed. Luckily for me, he starts it up and lets it run for 5 or 10 minutes every 6 months or so. Luckily for him, he has very understanding neighbours!</p>
+
+	<p>Overall, the <span class="caps">EFI</span> is running too rich &#8211; dropping the amount of fuel by about 10% should sort that out easily. The MegaTune software that I was using allows you to do that quickly and easily. (It&#8217;s a simple matter to change the &#8216;ReqFuel&#8217; variable or the injector open duration. From memory, it&#8217;s currently set to 5.5 milliseconds. Dropping to about 4.9 should sort things out.)</p>
+
+	<p>Around town, it&#8217;s not that good &#8211; it doesn&#8217;t want to idle properly, and the quick-action throttle makes it difficult to open the throttle a small amount. The revs surge up and drop back until repeatedly until they fall too low for the engine to run (and then it stalls). I had to reach down to the throttle bodies and manually turn cable attachment by hand. Even then it&#8217;s a tricky job to get it right.</p>
+
+	<p>I think that could be fixed by redesigning the throttle stop so that the throttle is held open a little bit more, and perhaps a bit of a tweak to the lower-end of the fuel map.</p>
+
+	<p>Once you get moving, it&#8217;s fantastic. Not a lot of power below about 5,000 <span class="caps">RPM</span> (kind of like the stock <span class="caps">CBX</span>). Once you open it up, however, it&#8217;s a different story. The tacho needle rips towards the redline at a great rate of knots, the exhaust howls in your ears, and the horizon leaps at you.</p>
+
+	<p>I didn&#8217;t get a dyno run, and I really wish I had. A &#8216;before&#8217; and &#8216;after&#8217; comparing the carbs to the <span class="caps">EFI</span> power output would be fantastic to see.  I estimate that the carbs were giving me about 80 to 85 horsepower at the rear wheel, and the <span class="caps">EFI</span> is easily more than that.</p><h3> </h3>
+	<p>Wow&#8230;. 8 months without an update.</p>
+
+	<p>OK, I got Raven on the dyno and a wide-band O2 sensor stuck into her exhaust pipe. (Ooops, sounds a bit rude doesnt&#8217; it?) Anyway, 2 hours later, I had a working fuel map.</p>
+
+	<p>It&#8217;s a bit different to what I was expecting to see &#8211; the bottom half was running way too lean, and the upper half was way too rich. Although I think that the bottom end could do with leaning out a fraction now.</p>
+
+	<p>The downside to all this is that Raven has been parked under a cover since about Easter. Now that the <span class="caps">EFI</span> project is proven to work (and is working fine!) I no longer have the motivation to finish the job (and fix the blasted oil leak, along with getting the exhaust valve guides replaced). I&#8217;ve ridden her a few times over the months, and she is a fun thing to hoon around on, but the &#8220;fun&#8221; has gone out of owning her.</p>
+
+	<p>Perhaps it&#8217;s time to find a new owner for her&#8230;.</p><h3> </h3>
+	<p>I haven&#8217;t been doing much on the bike lately, I&#8217;ve had too much other stuff to worry about. I&#8217;ve leaned the fuel map out a bit here and there, and it seems to run a lot better. I still think it&#8217;s running far too rich, but we&#8217;ll have to wait and see.</p>
+
+	<p>The big news is that I have Raven booked in for some serious dyno time down at MegaCycle. With a wide-band O2 sensor, I should be able to get the fuel map pretty well sorted out without too many hassles. The advantage of working on the dyno is simple &#8211; I can hold the bike at a constant <span class="caps">RPM</span> and throttle position and get the map sorted out. No need to try and extrapolate backwards from datalogs, no need to try and remember what&#8217;s happening as I&#8217;m riding, no need to watch out for cars.</p>
+
+	<p>The only worry I have at the moment is that she&#8217;s burning oil (and a reasonable amount of it), and that&#8217;s what&#8217;s killing my O2 sensor. I don&#8217;t really want to kill Ken&#8217;s WB sensor.</p>
+
+	<p>I&#8217;ll let you all know how things turn out&#8230;</p><h3> </h3>
+	<p>Hmmm&#8230;. Yes. Time for an update.</p>
+
+	<p>Speed-Density is dead! Long live Alpha-N! Yes, I have switched algorithms, and let me tell you, it&#8217;s much better now.</p>
+
+	<p>I have the fuel map mostly sorted out (I hope! Now, where have I said that before?) for most of the lower half of the <span class="caps">RPM</span> range. Cruising at about 80km/hr in top gear is smooth as silk. It&#8217;s still running a bit rich (going by the seat-of-the-pants) past about 1/2 throttle or so, which makes the engine sound rather lumpy and rough. Cold starting is interesting, it takes a couple of goes to get the engine to fire and continue running. Once it&#8217;s running, though, and past that first 20 seconds of coughing and farting, it idles quite well.</p>
+
+	<p>One thing that I have noticed is that I have to change my riding style. No more can I come into a corner one gear too high and rely on the bike to slowly accelerate. I have to come into the corner in the right gear, at the right engine speed and accelerate smoothly away &#8211; if I don&#8217;t, it just bogs down and goes nowhere as I open the throttle. Whether this is due to the incomplete tuning (including those pesky Acceleration Enrichments) I haven&#8217;t been able to tell yet.</p>
+
+	<p>I&#8217;m beginning to have my doubts about the <span class="caps">EGO</span> sensor, too. It seems to want to indicate that the engine is running very rich, even when it&#8217;s one touch away from stumbling because it&#8217;s too lean. I guess that if worst comes to worst, I can always disable it and simply run in open-loop mode.</p><h3> </h3>
+	<p>Oh boy&#8230;. This <span class="caps">EFI</span> tuning is a lot harder than the manual made it out to be. Mind you, the manual is aimed at car drivers who are able to have a co-pilot handy to do the on-the-fly tuning. Us bike riders have a bit more trouble when it comes to tuning whilst moving.</p>
+
+	<p>To cut a long and painful story short, I think I have the base fuel map down pretty well. There are a few mild stumbles when keeping a constant throttle, but some datalogging and some thought should be able to sort something out. A session on a dyno is on the cards, too. Preferably one that has a wide-band Exhaust Gas Oxygen (<span class="caps">EGO</span>) sensor handy.</p>
+
+	<p>I just wish I had a working speedo &#8211; then I could see just how fast she does accelerate with the right fuel amounts and a healthy dose of acceleration enrichment enabled.</p>
+
+	<p>A word of advice here &#8211; if your fuel calculator says put in &#8216;X&#8217; amount, then put in &#8216;X&#8217; amount! Don&#8217;t piss around trying to think you can out-smart it. You can&#8217;t.</p>
+
+	<p>Ah yes, datalogging. I have a borrowed Palm Pilot that can act as a datalogger, I just can&#8217;t get the data out of it! So it looks like I might have to strap my laptop to the bike somehow and go for a spin. I&#8217;m really not looking forward to doing that. Of course, having the laptop present means I can make quick adjustments on the side of the road. Hopefully.</p>
+
+	<p>If you do use hacked up throttle bodies, like I did, you&#8217;ll need a little stopper to hold the butterfly valves open slightly at idle. Otherwise your engine will not run. You can quote me on that, if you like. <strong>grin</strong> See the picture below.</p>
+
+	<p><img src="../images/96.jpg" alt="" width="600" height="451" /><br />
+How to clean your Exhaust Gas Oxygen sensor &#8211; a careful burning with a blowtorch. Just be careful not to get it too hot.</p>
+
+	<p><img src="../images/95.jpg" alt="" width="600" height="451" /><br />
+Yet another bracket &#8211; this time to hold the throttle slightly open.</p>
+
+	<p><img src="../images/92.jpg" alt="" width="600" height="451" /><br />
+It&#8217;s not elegant, but it works &#8211; although I got tired of plugging that cable in all the time.</p>
+
+	<p><img src="../images/94.jpg" alt="" width="600" height="451" /><br />
+The tuning software is Windows-based, so I have to run VirtualPC on my Apple laptop.</p>
+
+	<p><img src="../images/97.jpg" alt="" width="600" height="451" /><br />
+Datalogging, the hard way. Maybe I need a smaller laptop&#8230;.</p><h3> </h3>
+	<p>I picked up the tank from Mick on Friday evening. I must say that Frank is a damned good welder &#8211; the work was absolutely perfect. OK, the paint got ruined in a reasonably sized area, but I knew that was going to happen anyway.</p>
+
+	<p>I spent last night cleaning up the burnt paint, and discovered that someone had put a layer of body filler about 1mm thick all over the tank at some stage in the past. I guess this explains why the surface was so smooth. Anyway, I got the wire wheel out, and used the power drill to scrape back the burnt paint and body filler, all the way down to bare metal. Once it was cleaned up, I put a good coat of primer paint on.</p>
+
+	<p>Today, I cleaned up the primer and put a second coat on. I don&#8217;t really want this tank to rust. It will be a cast-iron bitch to get another one&#8230;</p>
+
+	<p>I really, really need to thank my friend SteveL, too. He dropped around this afternoon, and was instrumental in helping me getting the bike running. His enthusiasm and problem solving skills are pretty well second to none.</p>
+
+	<p>Together, we put the tank back together (installing the filler cap is a prick of a job), then went about problem solving why the bike didn&#8217;t want to run. First, there was a kink in the petrol line from the pump to the fuel rail. Then, the injectors weren&#8217;t passing fuel.</p>
+
+	<p>We eventually found out that the injectors were clogged with gunk and not opening! Bah! Humbug! Luckily, we were able to carefully press the injector pintle back with a small screwdriver. We&#8217;re talking less than a millimetre here, by the way! Working the pintle back and forth a few times seemed to work, as we started to get fuel into the inlet manifold. A few more moments of cranking, and the bike coughed, farted and roared into life!</p>
+
+	<p>I can&#8217;t really describe how I felt&#8230; I am very happy that everything was working at long last, but depressed in knowing that I have a huge amount of work in front of me getting it tuned properly.</p>
+
+	<p>Overall, a great day today!!</p>
+
+	<p><img src="../images/88.jpg" alt="" width="600" height="451" /><br />
+The tank as I got it back from Frank, burnt paint and all.</p>
+
+	<p><img src="../images/89.jpg" alt="" width="600" height="451" /><br />
+A bit of cleaning and polishing later&#8230;</p>
+
+	<p><img src="../images/90.jpg" alt="" width="600" height="451" /><br />
+All back together again, and ready for tuning.</p>
+
+	<p><img src="../images/91.jpg" alt="" width="600" height="451" /><br />
+A strange view of the pump, showing it&#8217;s base and mouniting bolts.</p>
+
+	<p><a href="../tech/projects/EFI/pictures/running.mp4">An <span class="caps">MPEG</span> movie (MP4 format) showing the bike starting and running.</a></p><h3> </h3>
+	<p>It&#8217;s all coming together now! I spent a good part of my Christmas break taking care of all the wiring the project needs. I ended up running something like 24 or 25 wires from pretty much one end of the bike to the other. The scary part is that it all works. Watch out for hot soldering irons &#8211; they tend to produce very nasty burns before you even notice. It&#8217;s been about three weeks, and it&#8217;s almost healed now.</p>
+
+	<p>Mick never got a chance to weld my tank together before Christmas, but he and Frank have been working on it the week. I saw it today on my way home from work, and it&#8217;s going to look very sweet when it&#8217;s all welded together. I&#8217;ll have to clean all the metal filings out of the tank, and repaint it, but those are small prices to pay.</p>
+
+	<p>If everything goes according to plan, I&#8217;ll have a go at getting the bike started sometime next week when I&#8217;m on leave from work. I expect that it will take some convincing to start, as the <span class="caps">CBX</span>s are always a bit cantankerous about starting after they&#8217;ve been sitting for some time. We&#8217;ll see what happens.</p>
+
+	<p>Ah yes&#8230; The new subframe. I received an arc welder for Christmas, after procrastinating about buying one for months. After melting a few bits of scrap together, I went and bought some steel so that I could build a real subframe for the bike. As you can see from the photos, it&#8217;s an interesting shape. Given that all it has to do is hold the seat on, brace the exhaust, and mount the indicators, I think it&#8217;s a pretty functional design. I took the opportunity to raise the seat by about 20 or 25mm, as it really was a fraction too low.</p>
+
+	<p>So, it looks like this project is in it&#8217;s final stage &#8211; I just have all the brain-bendingly interesting tuning work to do. Once I get the thing running.</p>
+
+	<p><img src="../images/60.jpg" alt="" width="600" height="451" /><br />
+The throttle bodies mounted on the engine.</p>
+
+	<p><img src="../images/85.jpg" alt="" width="600" height="451" /><br />
+Air temperature sensor and mounting.</p>
+
+	<p><img src="../images/61.jpg" alt="" width="600" height="451" /><br />
+Hot soldering irons will burn you. As I found out.</p>
+
+	<p><img src="../images/62.jpg" alt="" width="600" height="451" /><br />
+Ultra-high tech choke.</p>
+
+	<p><img src="../images/63.jpg" alt="" width="600" height="451" /><br />
+Spaghetti wiring.</p>
+
+	<p><img src="../images/64.jpg" alt="" width="600" height="451" /><br />
+Snazzy looking pod filters.</p>
+
+	<p><img src="../images/68.jpg" alt="" width="600" height="451" /><br />
+Viking hard at work soldering wires.</p>
+
+	<p><img src="../images/65.jpg" alt="" width="600" height="451" /><br />
+More spaghetti wiring, at the <span class="caps">ECU</span> end of the loom.</p>
+
+	<p><img src="../images/66.jpg" alt="" width="600" height="451" /><br />
+Subframe as it takes shape.</p>
+
+	<p><img src="../images/67.jpg" alt="" width="600" height="451" /><br />
+Completed subframe, after painting.</p>
+
+	<p><img src="../images/86.jpg" alt="" width="600" height="451" /><br />
+Throttle bodies and throttle cable clamp.</p>
+
+	<p><img src="../images/87.jpg" alt="" width="600" height="451" /><br />
+Throttle stop to prevent the throttle from opening too far.</p><h3> </h3>
+	<p>A momentous day! The tank is off with Mick Bubb to get the fuel pump installed &#8211; that involves cutting and welding, and there&#8217;s no way I&#8217;m going to weld a petrol tank!</p>
+
+	<p>The pump is from a 2002 <span class="caps">GSX</span>-R750 (it only has one fuel level sensor, rather than the two sensors that earlier pumps had) and will drive the injectors perfectly.</p>
+
+	<p>I spent today pulling the carbs out, and installing the throttle bodies. From the photo below, you can see how tight a fit everything is inside the frame. From a distance, it looks just like a normal set of carbs. I had to make up my own throttle cable clamp, as the stock one was in completely the wrong orientation and position.</p>
+
+	<p>All I need to do now is get all the blasted wiring completed&#8230;</p><h3> </h3>
+	<p>Things are starting to come together at last &#8211; I spent this evening in the shed fitting the inlet rubbers to the throttle bodies. I didn&#8217;t need to attack the rubbers with hole-saws, dremel tools or any other form of destruction.</p>
+
+	<p>I had been talking to Sharkey about how to get 39mm diameter rubbers onto 44mm diameter inlets, when he suggested that with sufficient heat, the rubber would soften enough to let me stretch them on. He suggested putting them in boiling water for a few minutes.</p>
+
+	<p>&#8220;What the hell..&#8221; I thought. So out came the camping butane stove and a metal tin to boil the things in. And it worked! Roughly 5 minutes of boiling softened the rubber enough that they went on without much trouble at all. What&#8217;s best is that the &#8216;lip&#8217; inside the inlet rubber appears to have latched into the groove in the throttle bodies. I&#8217;m not courageous enough to pull the rubbers off and see what happens!</p>
+
+	<p>Fitting the rubbers seemed like a real anti-climax, so I thought I&#8217;d have a go at checking the spacing for mounting the rubbers onto the cylinder head.</p>
+
+	<p>Another victory! With a bit of pushing and pulling, I was able to get the inlet rubbers bolted onto the cylinder head. It&#8217;s a pain of a job doing up all the bolts, but it worked.</p>
+
+	<p>The cylinder head in the photos is a spare one that I have kicking around. Now that I know the inlet rubbers will bolt straight on, I&#8217;m tempted to get this head rebuilt properly &#8211; new valve guides, reseated valves, the works.</p>
+
+	<p>Then I wondered how much space I was going to have between the cylinder head the the rear frame tube, so it was out to the cold car port with a ruler. If I&#8217;ve measured everything right, there is a ton of space there. This is looking good!</p>
+
+	<p><img src="../images/83.jpg" alt="" width="600" height="451" /><br />
+The four throttle bodies with the inlet rubbers in place.</p>
+
+	<p><img src="../images/84.jpg" alt="" width="600" height="451" /><br />
+A close-up of the above picture, showing cylinder #1&#8217;s inlet rubber</p>
+
+	<p><img src="../images/82.jpg" alt="" width="600" height="451" /><br />
+A complete setup &#8211; throttle bodies mounted to the cylindner head.</p><h3> </h3>
+	<p>I got my old engine cases and cylinder head back from Sharkey last week. I&#8217;ve finally had a chance to experiment with the spacing of the intake rubbers. I can&#8217;t change the spacing of the <span class="caps">GSX</span>-R throttle bodies.</p>
+
+	<p>By changing the order of the intake rubbers to be 2-1-4-3 (instead of 1-2-3-4), I can get to within 1mm of the correct spacing. The only downside here? The throttle bodies have an external diameter of 44mm, but the rubbers have an internal diameter of 39mm. So I guess it&#8217;s time to find myself a 44mm hole-saw, or sit there for hours with a dremel tool or something&#8230;</p>
+
+	<p>Incidentally, I got all my bits back from Hadyn. After two years, he still hadn&#8217;t put together my plenum chamber and intake runners. Sorry, Hadyn, but that&#8217;s just not acceptable.</p>
+
+	<p><img src="../images/77.jpg" alt="" width="600" height="451" /><br />
+The 4 <span class="caps">GSX</span>-R throttle bodies, all very clean and shiny.</p>
+
+	<p><img src="../images/78.jpg" alt="" width="600" height="451" /><br />
+The new throttle bodies, showing where the secondary butterflies would go.</p>
+
+	<p><img src="../images/80.jpg" alt="" width="600" height="451" /><br />
+This is where the secondary butterflies would go. The holes in the throttle bodies have been filled with 2-part metal epoxy filler then filed smooth.</p>
+
+	<p><img src="../images/81.jpg" alt="" width="600" height="451" /><br />
+Looking good! The spacing between the inlet rubbers is a lot better than I had hoped for. A bit of work making the holes big enough for the throttle bodies to fit in, and I should be right. </p><h3> </h3>
+	<p>The throttle bodies arrived on Friday. By Saturday night I had ripped out the secondary butterflies (controlled by the Suzuki <span class="caps">ECU</span> to improve low-<span class="caps">RPM</span> / low-speed air flow and engine response) and filled the holes left from their shaft.</p>
+
+	<p>Today I smoothed out the filler (a great 2-part metal putty that smells awful but goes rock solid) so that there is nothing to slow down the airflow through the throttle bodies.</p>
+
+	<p>I guess this means that I have to get into gear and start working on the wiring loom and working out where to hook up all the sensors&#8230; Of course, I still need to make up the mounting tray for my <span class="caps">ECU</span>, and getting a rear &#8216;hugger&#8217; mudguard would be a very good idea, too!</p><h3> </h3>
+	<p>More time has slipped past&#8230;</p>
+
+	<p>OK, the good news &#8211; I have finally picked up a set of <span class="caps">GSX</span>-R 600 throttle bodies from eBay. They&#8217;re currently on their way across the Pacific from California. I managed to find a good set &#8211; they had the injector wiring harness with them. Most sets of throttle bodies don&#8217;t come with the wiring harness.</p>
+
+	<p>Once they arrive, I&#8217;ll be looking at modifying the spacing between them, as the <span class="caps">GSX</span>-R has different inlet-port spacing to the <span class="caps">CBX</span>.</p>
+
+	<p>Next on the shopping list is a fuel pump to match.</p><h3> </h3>
+	<p>I can&#8217;t believe that a year has slipped past, without any further progress on my <span class="caps">EFI</span> conversion. This is just appalling.</p>
+
+	<p>To very quickly re-cap what I&#8217;ve been doing over the past 12 months:</p>
+
+	<ul>
+		<li>I finished rebuilding my bike&#8217;s engine &#8211; it took longer than I expected</li>
+		<li>Hadyn still hasn&#8217;t finished my manifold</li>
+		<li>I have sold my old <span class="caps">CBX</span> 750 and got a modified CBX750, and it&#8217;s getting the <span class="caps">EFI</span> conversion</li>
+		<li>I have gone away from the single throttle body design, and am looking at a 4-throttle body design. This will fit into the new bike much better than the old design.</li>
+	</ul>
+
+	<p>A project redesign</p>
+
+	<p>Yep, I&#8217;ve gone away from the old design of one throttle body and a large plenum chamber. I&#8217;ve been looking around, and a set of throttle bodies from a Suzuki <span class="caps">GSX</span>-R will do the job much better. The Suzuki fuel pump is a beauty &#8211; internal to the fuel tank, in-built pressure regulator and return line, and has a fuel level sender integral to it.</p>
+
+	<p>So I&#8217;m now looking at finding the bits on eBay at a reasonable price. I&#8217;d prefer to buy them locally from a wreckers (so I can actually have a look at them before I buy them) but I guess eBay will be OK. They do come up with surprising regularity (once you get the right search terms!). The real killer is the cost of shipping them into Australia&#8230; :-(</p>
+
+	<p>On a related note, the new bike is currently getting a new exhaust system fitted, and it will have the <span class="caps">EGO</span> sensor installed from the start &#8211; so no need to go back and retro-fit the thing later.</p><h3> </h3>
+	<p>I can&#8217;t beleive that it&#8217;s been over 8 months since I made any updates here&#8230;</p>
+
+	<p>There&#8217;s not a lot to report here, except that I&#8217;m still waiting on Hadyn to create the intake manifold for me, and SteveL is still working on the new fuel tank.</p>
+
+	<p>On the good side, however, I have got the MS working very well on the Stim, and have created a good looking VE map from my dyno run data.</p>
+
+	<p>On the bad side, my bike has eaten a big-end bearing. So the engine is in a million pieces all over my work bench, waiting for the new pieces to bring it back to life.</p><h3> </h3>
+	<p>I spent this afternoon around at DaveJ&#8217;s house, looking at his MegaSquirt installation on his 1976 Ford Landau coupe. All I can say is that it is one beast of a car. (If you&#8217;re unfamiliar with the Landau, go and watch the film &#8220;Mad Max&#8221;, starring Mel Gibson. Max&#8217;s car is as close to a Landau as you&#8217;re going to get.)</p>
+
+	<p>We paid a visit to Hadyn, Dave&#8217;s machinist mate about building up my plenum chamber. We discussed a few details, and Hadyn will start building the plenum when he gets a free slot in his very busy schedule. So that&#8217;s one less thing I have to worry about.</p>
+
+	<p>About a month ago, I was having a chat with SteveL about the bigtank covnersion he is doing for me (although he&#8217;s just started a new job, so it&#8217;s taking up all of his time at the moment), and asked about the fuel return line for the <span class="caps">EFI</span> conversion. At this stage, we&#8217;ve decided that the best place for the return line is the rear of the tank, on the right-hand side. I&#8217;ll have to remember to ask him about adding some &#8216;walls&#8217; around the fuel pick-up point to try and prevent the fuel moving around too much.</p><h3> </h3>
+	<p>Two updates in two days must be some sort of record for me&#8230;</p>
+
+	<p>I spent today finishing the fibreglassing of the rear seat cowl &#8211; all I have to do now is sand and paint it. It&#8217;s going to look a bit rough, but I can always pass it off as being a prototype. Which it sort of is&#8230;</p>
+
+	<p>But doing fibreglass work when the ambient temperature is about 12 degrees C is a slow and painful job &#8211; the resin doesn&#8217;t want to set, so I &#8216;ve had to have the heater going for most of the day. In another day or two it should have set &#8211; then I can sand it smooth and paint it.</p>
+
+	<p>I have almost finished modifying the Daihatsu throttle body &#8211; I pulled or cut a lot of extraneous junk off it &#8211; air bleed pipes, fast-idle valves and the like. Most of the holes have been plugged with a two-part metal epoxy filler. (Cool stuff &#8211; knead the two pieces together, shape it, and within minutes it&#8217;s starting to go solid. Supposedly it&#8217;s fully cured in an hour. I found it was starting to set within 2 minutes, and rock solid after about 10 or 15.)</p>
+
+	<p>Oh, and Repco didn&#8217;t have either of the sensors. Is it just me and my local repco shop, or is Repco a bunch of useless gits when it comes to slightly out of the ordinary parts requests? I can&#8217;t see that an air temp. sensor and a coolant temp. sensor are that far out of the ordinary&#8230;</p>
+
+	<p><img src="../images/70.jpg" alt="" width="600" height="450" />	<br />
+A shot of the rear cowling &#8211; the internal brace &amp; mounting section is held in place with pop-rivets and lots of glass and resin.</p>
+
+	<p>Yes, it&#8217;s pretty rough. But for a first effort, I can&#8217;t complain all that much. I just wonder how many flaws will appear when I paint it&#8230;</p>
+
+	<p><img src="../images/73.jpg" alt="" width="600" height="450" />	<br />
+The modified Daihatsu throttle body. You can see where I&#8217;ve cut off some of the air lines and blocked the holes with metal putty. The black box at the right is a Spectrol Throttle Position Sensor, to replace the standard Daihatsu unit.</p>
+
+	<p><img src="../images/74.jpg" alt="" width="600" height="450" />	<br />
+The underneath of the throttle body, showing yet another big hole filled with metal epoxy. The two smaller holes will be filled in at a later date.</p>
+
+	<p><img src="../images/75.jpg" alt="" width="600" height="450" />	<br />
+The side of the throttle body that attaches to the plenum chamber. The two small holes visible in the previous picture connect into that rectangular space visible beneath the <span class="caps">TPS</span> wires. It&#8217;s a bit hard to see here, but there are two large areas built up with metal epoxy.</p>
+
+	<p><img src="../images/76.jpg" alt="" width="600" height="450" />	<br />
+A better view of the two metal epoxy sections. These were smoothed down until they were flush with the throttle body. I have yet to fully smooth the round areas. You can also clearly see the two small holes that I haven&#8217;t filled yet, along with a small air vent pipe just above the &#8216;D&#8217;-shaped shaft that connects everything together.<br />
+<img src="../images/71.jpg" alt="" width="600" height="450" />	<br />
+There you have it &#8211; the finished prototype cowl on the bike.	</p>
+
+	<p><img src="../images/72.jpg" alt="" width="600" height="450" />	<br />
+I think that this is the better looking side &#8211; the other side has a few blemishes in it.</p><h3> </h3>
+	<p>Another couple of months without an update&#8230;</p>
+
+	<p>I have almost finished the fibreglass seat cowl &#8211; I have to &#8216;glue&#8217; the pieces together, perhaps a coat of fine-weave cloth over the top, and then it will be ready to paint. Personally, I think it&#8217;s going to look a bit strange when compared to the standard bike. We&#8217;ll have to see.</p>
+
+	<p>On the mechanical and electrical sides, I haven&#8217;t gotten much further, although I&#8217;m now in a position to start making up the wiring look for all the <span class="caps">EFI</span> components.</p>
+
+	<p>The proper-style <span class="caps">TPS</span> arrived months back, I just have to make up a mounting bracket for it. (That won&#8217;t be too hard &#8211; I have some aluminium strip handy.) At the same time, I have started removing all the extraneous junk from the throttle body &#8211; I don&#8217;t need the air-bleed fast-idle solenoid (so that&#8217;s been removed), nor any of the air bleed lines and what-not. So they&#8217;ll all be chopped off, and any holes filled with a two-part metal epoxy filler putty.</p>
+
+	<p>On the plenum chamber side of things, a very helpful person (thanks DaveJ!) on the Oz_MS (Oz_MegaSquirt) mailing list has offered to have a look at my design, and has since passed it on to someone who can make it up for me. So, hopefully, I&#8217;ll have a made-up plenum and intake-runner set ready to bolt onto the bike fairly soon.</p>
+
+	<p>In case the MkI plenum is too big, I&#8217;ve laid down some initial designs and drawings for plenum MkII. This has a plenum capacity of 800cc (down from 1500cc), and intake runners tuned to take advantage of the Heimholtze (damn, I spelt that wrong again) Resonance and hopefully get some additional horsepower for free. :-)</p>
+
+	<p>I&#8217;ll be picking up some temperature sensors tomorrow &#8211; an air temp. unit from a Holden Camira (AC part number 1317), and a coolant temp. sensor (again, from a Camira, Bosch part number 130 026). I&#8217;ll mount the coolant sensor in the sump, as it&#8217;s mainly used to monitor engine temperature for the warm-up enrichments.</p>
+
+	<p>I realise that there is a huge lag between engine temperature and oil temperature. I&#8217;ll just have to live with it. (Anyway &#8211; I&#8217;ve never known what my oil temperatures have been for the past 9 years, so there&#8217;s no point in starting to worry now&#8230;)</p>
+
+	<p>More stuff on the shopping list includes the high-pressure fuel line to go between the fuel pump, the fuel-rail, and the return line.</p>
+
+	<p>On the fuel side, I&#8217;ve decided to stick with the stock fuel-tap, so that I have a reserve tank, as my fuel guage is a bit on the random side&#8230; To get the fuel back into the tank, I&#8217;ll modify the plate where the fuel guage sensor goes to include a hose-end and a nozzle to direct the fuel back into the tank. Hopefully, this will also reduce the effect of the fuel heating up as it passes through the pump / regulator and rail.</p><h3> </h3>
+	<p>Not much to report, really. I&#8217;ve laid off on the intake plenum for the moment &#8211; although Rod has drawn it up in AutoCad for me. We&#8217;re still looking for someone who can make it up for me.</p>
+
+	<p>I have been busy with shaping the seat cowl, though. That&#8217;s almost ready to be used as a master for the fibreglass lay-up. I think a bit more sanding and shaping, and I should be about right.</p>
+
+	<p>Oh, and I&#8217;ve had to order a proper <span class="caps">TPS</span> (Throttle Position Sensor), as the one from the Daihatsu is not the correct type &#8211; I need one that is a potentiometer (variable resistance) type, not a 3 position micro-switch type.</p><h3> </h3>
+	<p>Hmmm&#8230; I&#8217;ve been rather busy lately &#8211; chasing information about fibreglassing, measuring the old frame to see how large an intake plenum I can have, seeing where the throttle body and what-not can be mounted, painting part of the singel-seat conversion, and finally getting around to having a crack at generating a VE table to program into the MegaSquirt.</p>
+
+	<p>I have made a cardboard mock-up of the intake plenum chamber and runners, so that I can have a better understanding of how large it is, and to physically see how if will fit into the bike&#8217;s frame. I&#8217;m surprised at how compact it really is.</p>
+
+	<p>A few calculations show that the intake side of things (plenum chamber, intake runners and the rubber mounts that hold the runners to the cylinder head) will have a volume of just under 2 litres (or about 2.6 times engine capacity). The rule of thumb for small capacity, high-revving engines is to have an intake volume of between 1.5 and 3 times engine capacity. I expect that the final manifold will have a slightly smaller volume, as I haven&#8217;t taken into consideration the thickness of the material. (Yes, it will be a puny difference, but I&#8217;m mentioning it for completeness.)</p>
+
+	<p>All I have to do now is to make some detailed drawings of all the individual pieces, then take them and the model to a small engineering firm around the corner to see if he&#8217;s able to make it up for me.</p>
+
+	<p>As for generating the VE table, one of the Megasquirt people wrote a program that can generate a VE table from the output of a dyno graph. But working backwards from the torque curve, a fairly good starting point can be gained.</p>
+
+	<p>The table I ended up with doesn&#8217;t quite look like I expected it to, but then, I don&#8217;t really know what to expect anyway&#8230;</p>
+
+	<p>Also on the programming side, it looks like I might have to forget about using the default Speed-Density mode of the &#8216;Squirt and use Alpha-N mode instead. It appears that for engines with a fairly wild cam (and I think that bikes have a fairly wild cam when compared to a car) with a long overlap, the SD method is not the best. There is also the problem of &#8216;off-idle&#8217; (that point where the throttle is just opening) where Alpha-N appears better than SD. But we&#8217;ll wait and see &#8211; I expect that just getting the thing running with SD will be a big enough achievement.</p>
+
+	<p>A few pictures of the work so far&#8230;</p>
+
+	<p><img src="../images/53.jpg" alt="" width="600" height="450" /><br />
+Rear view of engine in frame	To give you an idea of how compact it all is, a shot of the rear of the engine. The ruler is to show you the scale. Note that the alternator will take up about 4 inches (100mm) of space where the ruler is.</p>
+
+	<p><img src="../images/54.jpg" alt="" width="600" height="450" /><br />
+The Daihatsu plenum chamber, with the cool &#8216;<span class="caps">EFI</span>&#8217; logo cast into it. It&#8217;s about the right size, but all the angles are wrong, so it&#8217;s effectively useless.</p>
+
+	<p><img src="../images/55.jpg" alt="" width="600" height="450" /><br />
+The cardboard mock-up of the plenum chamber, intake runners, and throttle body mounting plate. Maybe I should have put the printed side on the inside&#8230;</p>
+
+	<p><img src="../images/56.jpg" alt="" width="600" height="450" /><br />
+The cardboard mock-up of the plenum chamber, intake runners, and throttle body mounting plate. </p><h3> </h3>
+	<p>I have been very lazy here &#8211; too many other things to do, and not enough time to devote to my projects&#8230;</p>
+
+	<p>Following on from my purchase of the Daihatsu pieces, I have generated a temperature curve for the air inlet temperature sensor, purchased a Narrow-Band <span class="caps">EGO</span> (Exhaust Gas Oxygen) sensor, and started making arrangements to get all the intake side put together.</p>
+
+	<p>Going by some measurements I took the other night, the Daihatsu intake manifold will not be any use to me at all &#8211; I&#8217;ll have to make up an entire plenum assembly with all the runners. Thankully, that will not be too difficult, as it&#8217;s going to be made from mild steel.</p>
+
+	<p>With regards to the injectors, I was able to find their flow capacity, so I know have an idea of how big they are, but I still don&#8217;t know what pressure the fuel pressure regulator is set to&#8230;</p>
+
+	<p>How can I sum up the project so far? Slow and steady.</p><h3> </h3>
+	<p>I have bought some <span class="caps">EFI</span> parts from a local Daihatsu wrecker &#8211; an inline fuel pump from a Feroza, along with a complete intake manifold (throttle body, plenum and runners, injectors, fuel rail, fuel pressure regulator, and throttle position sensor). All I have to do now is to find out the flow rate of the injectors, and what pressure the pressure regulator allows through.</p><h3> </h3>
+	<p>The MegaSquirt is now finished &#8211; I bought some tube for the <span class="caps">MAP</span> sensor, trimmed the circuit board so that it fits into the case, organised a &#8216;break-out&#8217; connector for the <span class="caps">MAP</span> sensor (so that I don&#8217;t have to have a length of tube waving around), and put it together. I suppose I should take a few photos, but the outside is a rather boring silver box&#8230;</p><h3> </h3>
+	<p>The megasquirt has been almost assembled &#8211; I just need to find a suitable air-hose adaptor for the <span class="caps">MAP</span> sensor, and I can then bolt the case together. The circuit board is about 0.5mm too long for the case, so I&#8217;ll have to carefully file it back to the proper size. Also, the 9-pin connector stuck out about 2.5mm past the end of the circuit board. So I dug up an old 9-pin connector that I had lying around, and used a flying lead from the MS board to the 9-pin. It doesn&#8217;t look very pretty, but it works.</p>
+
+	<p>It was pretty exciting to have the &#8216;squirt running on the desk, with the MegaStim plugged into it, and watch the numbers change on the screen change as I fiddled with the controls on the &#8216;Stim.</p>
+
+	<p>Did I mention the software? It&#8217;s all Windoze based, and you set up and program the &#8216;squirt through it. It has full datalogging capabilities, and a run-time monitor so that you can see what it&#8217;s doing at any given instant. The original &#8216;<span class="caps">PCC</span>&#8217; (PC Configurator) program was written by Bruce and Al, but recently Erik has released &#8216;MegaTune&#8217; (an enhanced version of the <span class="caps">PCC</span>). You can get the <span class="caps">PCC</span> from the MS home page, and MegaTune from the Yahoo area. (See above for the <span class="caps">URL</span>s.)</p>
+
+	<p>Getting back the the EFI332 project for a moment, Jeff has his Corvette running beautifully. Bruce has taken it for a spin, and is very impressed with it&#8217;s increased power, smooth power delivery, and engine management. About the only thing Jeff is having trouble with is the <span class="caps">IAC</span> (Idle Air Control) which controls the idle speed of the car. Given that the original manufacturer spent millions of dollars getting it right, Jeff&#8217;s achievement is even more astounding.</p><h3> </h3>
+	<p>Woohoo!! It&#8217;s arrived! My megasquirt has been delivered! What can I say? It&#8217;s a box of electrical components, a couple of circuit boards, and a sturdy looking aluminium case to put it all in.</p>
+
+	<p>So, all I have to do is put it together&#8230; :-)</p>
+
+	<p>On the EFI332 front, there has been a bit of progress from other people, so that has inspired me to put together a virtual PC with <span class="caps">VMW</span>are to run the <span class="caps">DOS</span>-based developement / debugging tools with. With luck, I might not even need the MS-<span class="caps">DOS</span> virtual machine, and I can use my Win98 virtual machine.</p><h3> </h3>
+	<p>I&#8217;ve been a bit slack lately &#8211; I sent off the money for a MegaSquirt kit back in December, and one of Jeff&#8217;s MegaStim boards (the equivalent of the &#8216;Stimulator&#8217; for the &#8216;squirt). According to Bruce and Al, most of the parts have arrived, and they are starting to ship the kits out. At a rate of 50 kits per week, they estimate it will take 6 to 8 weeks to get all the kits out.</p>
+
+	<p>The website for the &#8216;squirt is here: <a href="http://www.bgsoflex.com/megasquirt.html">http://www.bgsoflex.com/megasquirt.html</a>, and there is also a Yahoo! group discussion forum thingy at <a href="http://groups.yahoo.com/groups/megasquirt">http://groups.yahoo.com/groups/megasquirt</a>.</p><h3> </h3>
+	<p>I mentioned Bruce and Al&#8217;s new &#8216;MegaSquirt&#8217; earlier. As it comes pretty well pre-programmed, and almost ready to run, I have decided to pursue this path in the immediate future, and use it as a learning exercise. What I learn with &#8216;MegaSquirt&#8217; will be useful with developing the &#8217;332 board.</p>
+
+	<p>But that doesn&#8217;t mean that I&#8217;m bailing out of &#8217;332 development totally. I&#8217;ll still help Jeff with his code development, and Dave with getting his buggy going.</p>
+
+	<p>Actually, Jeff has managed to get his car running with the &#8217;332 board and his code base. About all it can do right now is idle, but he&#8217;s working on improving that and getting his sensor data sorted out. One of his niftier pieces of code is the serial monitor that allows for full data capture and can even replay the captured data so that he can see exactly what&#8217;s going on. Well done!!</p><h3> </h3>
+	<p>Hmmm&#8230; I have been a bit slack here. :-(</p>
+
+	<p>Anyway, I have fixed my communications problem &#8211; it looks like I fried one or more of the ICs on the <span class="caps">BDM</span> board when I built it. I have replaced all the ICs on it, and it works perfectly.</p>
+
+	<p>And now the next hurdle appears &#8211; I can download code to the board, and inspect the <span class="caps">CPU</span>&#8217;s registers and stuff, but I can&#8217;t seem to get my code to run. It looks like it&#8217;s ignoring my code and running the test code that Charles programmed into the Flash <span class="caps">RAM</span> when he built the board. So my next step is to figure out how to either erase the Flash <span class="caps">RAM</span>, or work out where my code is being loaded and set the <span class="caps">CPU</span> to execute from there.</p>
+
+	<p>And in the meantime, Bruce and Al (the original designers of the EFI332 system) have brought out a cut-down version named &#8216;MegaSquirt&#8217;. It does everything the &#8217;332 does, but in a simpler design, complete with Windows-based setup and tuning software. Now if only the &#8217;332 was that easy!</p><h3> </h3>
+	<p>I met up with Jeff Clarke, one of the main code writers behind the EFI332 4-layer board, and we had a great talk about all the <span class="caps">EFI</span> stuff. I didn&#8217;t get a chance to talk to Bruce Bowling (the guy who helped design the EFI332 <span class="caps">CPU</span> board) face to face, but we had a couple of lengthy talks on the phone.</p>
+
+	<p>I now have all the silicon needed to build my second <span class="caps">CPU</span> board (apart from the Flash <span class="caps">RAM</span>, but that&#8217;s pretty hard to find anytime). All I need is to get my act together and start building stuff.</p>
+
+	<p>Of course, I also have to find out where my problem lies with my current complete board, as none of the things I try seem to indicate communication between it and my PC.</p><h3> </h3>
+	<p>Well, I finally have the rebuilt cylinder head back from the experts, and it&#8217;s beautiful! I had to clean the last of the grinding paste out of the ports and off the valve seats, but that&#8217;s a small price to pay for such excellent work.</p>
+
+	<p>On the <span class="caps">EFI</span> side, I have determined that my bench power supply doesn&#8217;t work. I found a power pack that gives 12v, and the voltage regulator on the <span class="caps">EFI</span> board gets hot now. Of course, life is never easy, and I still can&#8217;t get my development environment to talk to the board via the <span class="caps">BDM</span> modules. I think that I may have buggered up some of the ICs when I built the <span class="caps">BDM</span> board. Luckily, I used IC sockets, so it&#8217;s merely a matter of heading off to the local electronics shop and grabbing some more.</p>
+
+	<p>I&#8217;m getting the chance to meet up with some fellow EFI332 enthusiasts! Work is sending me to America to attend the 2001 <span class="caps">SANS</span> conference in Baltimore. Two of the major EFI332 players live near there, so we&#8217;re going to organise a get-together to chat and swap idea.</p><h3> </h3>
+	<p>Not a lot to report here. I had to chase up some new valve guides for the new head. That delayed things by about 3 weeks, as they had to come from Japan.</p><h3> </h3>
+	<p>My <span class="caps">CPU</span> boards arrived between Christmas and New Year&#8217;s!! Woohoo!! The driver boards are well on their way to being ready, and I bought myself a bench power supply to power it all whilst I test and debug it in the comfort of my work area.</p>
+
+	<p>I&#8217;m slowly getting stuck into the coding (and there is a lot! to learn), but for now I&#8217;m working on a Unix port of the MS-<span class="caps">DOS</span> monitoring program.</p>
+
+	<p>As for the cylinder head, I dropped it off for a specialist to have a look at, and he reported that there wasn&#8217;t enough metal left in the valve seats to grind them back! So I had to chase up another CBX750 cylinder head. Luckily, Mr_T (Team RC17 #1) had one sitting in his garage, so it was a simple matter of him bringing it over here, and then me dropping it off to the cylinder head expert. With luck, this one will be fine!</p><h3> </h3>
+	<p>Charles, the guy doing the <span class="caps">CPU</span> board buy, has had to pull out, leaving quite a few of us hanging in the air. The buy has been passed over to another member of the EFI332 team, and he is currently sorting out what needs to be done to get everything finished. He has stated that people who want their boards built for them will end up waiting, but those who want their stuff now will get everything before the end of the year.</p>
+
+	<p>Also, I have put my name down for a driver board that can handle all the injectors and all the coils. If I was so inclined, I could build the driver board to handle 8 injectors and 8 coils, but for the <span class="caps">CBX</span>, I only need 4 of each.</p>
+
+	<p>Once I get the <span class="caps">CPU</span> board and driver board, it&#8217;s time to start playing with code and the stimulator board to get a working system together. I have a funny feeling that getting the code working will take longer than everything else.</p><h3> </h3>
+	<p>The <span class="caps">CPU</span> board still hasn&#8217;t arrived &#8211; the poor fellow putting them together has been having some problems with home and work. With luck, he will have finished moving house by now, and can get on with building my <span class="caps">CPU</span> board!</p>
+
+	<p>There is a possibility of getting a &#8216;Driver&#8217; board as well. The driver board is the one that actually triggers the injectors (and the coils, if you have elected to have the <span class="caps">CPU</span> run the ignition as well), so you need one of these before you can do anything.</p>
+
+	<p>I picked up a cylinder head and cylinders (with a full set of pistons!) from a wrecker last Christmas, and have been slowly rebuilding them. I have reached the stage where I need to remove the old valve guides, and get the valve seats ground, then reface the valves. I&#8217;ll see about getting the ports worked on (not a lot) to get that fraction more power.</p><h3> </h3>
+	<p>The EFI332 group buys are proceeding well. The <span class="caps">CPU</span> boards are starting to ship, and I just have to be patient. The &#8216;stimboard&#8217; has arrived, and I spent an evening soldering it all together.</p>
+
+	<p>There has been a fair bit of discussion on the EFI332 mailing list about what sort of enclosure to put the <span class="caps">CPU</span> into, and what sort of driver board the project is going to use. Given that most of the EFI332 people are going to be using their <span class="caps">CPU</span>s in cars, I might have to make my own enclosure.</p>
+
+	<p>I have done some calculations, and have worked out roughly what size injectors I will need, and have an idea of what sort of injector pulse width I will be dealing with (at the worst-case). The pulse width seems a bit big to me (especially with the injector size I am using for the calculations), but we&#8217;ll see how it goes.</p><h3> </h3>
+	<p>The group buy for the &#8216;stimulator&#8217; has closed, and I have one of them on order.</p>
+
+	<p>The &#8216;stimulator&#8217; is a small circuit board that will connect to the <span class="caps">CPU</span> board, and provide a false set of signals from the various sensors. This will allow us to develop and test our code (and fuel / spark maps) without having to worry about blowing up an engine.</p><h3> </h3>
+	<p>Hmmm&#8230; it has been a long time since I updated this page&#8230;</p>
+
+	<p>The EFI332 group has developed a new <span class="caps">CPU</span> board that incorporates the existing <span class="caps">CPU</span> board and I/O boards into one unit. I have one of these on order (fully assembled and tested), along with the <span class="caps">EFI</span>-<span class="caps">CPU</span> to PC connector. I expect delivery sometime in April, 2000.</p>
+
+	<p>I have a contact who can help with the fabrication of the intake manifold, throttle body and intake tracts. I still haven&#8217;t sourced any of the bits, but there are plenty of car wreckers around here, and picking up the bits from a wrecked car (eg: Holden Camira, Mazda, or Hyundai) shouldn&#8217;t be too difficult.</p>
+
+	<p>To house the <span class="caps">EFI</span>-<span class="caps">CPU</span>, I am going to convert the bike into a single seat, and mount the computer in the area where the pillion seat would have been.</p><h3> </h3>
+	<p>This is a bit of a dream, I guess. But I&#8217;ve been looking around for a while, trying to see if it&#8217;s possible to convert a bike from carburetors to Electronic Fuel Injection.</p>
+
+	<p>There are a few suppliers of ready-made <span class="caps">EFI</span> equipment, but I&#8217;d really want to do far more homework before I go splashing out on what might be an expensive mistake. (The general price range of ready-made <span class="caps">EFI</span> equipment is around the <span class="caps">AUS</span> $2000 range for a full kit that would suit my requirements.)</p>
+
+	<p>A place you might want to visit is the Diy_EFI project team. The Diy_EFI / <span class="caps">EFI</span>-332 projects are aimed at the &#8216;Do It Yourself&#8217; person, and if you don&#8217;t have experience with soldering circuit boards and programming then you&#8217;re probably wise to give it a miss.</p>
+
+	<p>Since I last edited this page, I&#8217;ve been doing a fair bit of research into this area. What have I found? Yes, it would be possible to convert a bike from carbs to <span class="caps">EFI</span>.</p>
+
+	<p>The major limiting factor is the amount of space under the tank for mounting all the injector gear, throttle body and sensors. Another factor is the amount of electronic interference created by the bike&#8217;s ignition system &#8211; I would have to mount the Electronic Control Unit (<span class="caps">ECU</span>) somewhere in the duck-tail, and have all the cables shielded.</p>
+
+	<p>Fuel supply is a major problem &#8211; for effective <span class="caps">EFI</span>, you need to have a fuel pressure of between 30 and 40 psi &#8211; most bike fuel pumps (eg: from the CBR600) don&#8217;t provide enough pressure, and gravity flow gives less than 5psi. Another problem is the size of the fuel pump &#8211; most are too big to be mounted on a bike.</p>
+
+	<p>My idea is to use the fuel pump and injector setup from a wrecked <span class="caps">BMW</span> K-series bike. The <span class="caps">BMW</span> K-series bikes have been using <span class="caps">EFI</span> for over a decade, so any problems will have been worked out by now. I feel that I could also take most of the sensors from the <span class="caps">BMW</span> and adapt it to suit the <span class="caps">DIY</span>_EFI control system.</p>
+
+	<p>As for injector firing, it doesn&#8217;t really matter about when you fire the injector, as studies have shown that (strangely enough!) you get best performance if you fire the injector during the cylinder&#8217;s exhaust stroke. Strange, I know. Also, there isn&#8217;t much difference between sequential firing (one injector at a time) or bank firing (all injectors at once). I have decided that I would fire a pair of injectors at a time. Although, if the software allows it, I could manage sequential injector firing.</p>
+
+	<p>Timing signals would be provided by a Hall-effect sensor mounted on the end of the crankshaft, and supplemented by a feed from the ignition system. At this stage, I intend that the bike&#8217;s stock ignition system would be used.</p>
+
+	<p>Speaking of time, at maximum rpm, the RC17 takes only 3 milliseconds to complete a full stroke of the piston from <span class="caps">BDC</span> (Bottom Dead Centre) to <span class="caps">TDC</span> (Top Dead Centre). As most injectors have a turn-on time of 1-2 milliseconds, I would have only 1 millisecond to fire the correct amount of fuel into the cylinder. An impossible task.</p>
+
+	<p>But it&#8217;s not that bad &#8211; because we&#8217;re dealing with a 4-stroke engine, we only fire the injector every 2 engine revolutions, so we actually have 12 milliseconds (4 strokes * 3ms) to inject the required amount of fuel. No problem.</p>
+
+	<p>There are other things to consider, such as air-flow through the air box and into the throttle body, and the design of the actual air-box to throttle body to cylinder plumbing, as well as all the sensors that an <span class="caps">EFI</span> setup requires.</p>
+
+	<p>As I said before, I do feel that it&#8217;s possible to convert a bike to <span class="caps">EFI</span>, and I feel that the number of new bikes on the market with factory-<span class="caps">EFI</span> (eg the 1999 Suzuki <span class="caps">GSX</span>-R750, the Honda VFR800 / CBR1100XX) proves that it is possible.</p>
+
+	<p>Currently, I have put the project on the back-burner because Real-Life &#8482; has intruded, but I will be looking at it again when time allows me to.</p>
+
+	<p>Another thing to put a damper on my project is the fact that I can get a DynoJet stage 1 kit and a K&amp;N stage 1 filter kit for the RC17. Together, they would provide the same boost in power but for a lot less money and an infinitely smaller amount of work. Add to this equation the Moriwaki exhaust system, and you have a pretty good setup.</p>
+	</div>
+
+<!-- footer -->
+	<div id="foot"><center>&copy; TeamRC17.net, 1996-2009. All rights reserved.<br> No part of this service may be reproduced, reprinted or republished in any form or by any means, electronic, mechanical, photocopying, recording, or otherwise without written permission from the TeamRC17.net webmaster.</center></div>
+
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11710630-5");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+<!-- Mirrored from teamrc17.net/technical/?c=efi by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Nov 2020 21:50:09 GMT -->
+</html>
